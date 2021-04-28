@@ -11,7 +11,7 @@
 
 ## 資料來源"
 ### 網址: <a href="https://ptx.transportdata.tw/MOTC?t=Tourism&v=2#">MOTC Transport API V2</a>   
-###       <a href="https://ptx.transportdata.tw/PTX/">PTX平台</a>
+### <a href="https://ptx.transportdata.tw/PTX/">PTX平台</a>
 
 
 
