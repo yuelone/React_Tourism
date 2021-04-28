@@ -1,0 +1,26 @@
+const citys = [
+  { value: 1, id: "Taipei", label: "臺北市" },
+  { value: 2, id: "NewTaipei", label: "新北市" },
+  { value: 3, id: "Taoyuan", label: "桃園市" },
+  { value: 4, id: "Taichung", label: "臺中市" },
+  { value: 5, id: "Tainan", label: "臺南市" },
+  { value: 6, id: "Kaohsiung", label: "高雄市" },
+  { value: 7, id: "Keelung", label: "基隆市" },
+  { value: 8, id: "Hsinchu", label: "新竹市" },
+  { value: 9, id: "HsinchuCounty", label: "新竹縣" },
+  { value: 10, id: "MiaoliCounty", label: "苗栗縣" },
+  { value: 11, id: "ChanghuaCounty", label: "彰化縣" },
+  { value: 12, id: "NantouCounty", label: "南投縣" },
+  { value: 13, id: "YunlinCounty", label: "雲林縣" },
+  { value: 14, id: "ChiayiCounty", label: "嘉義縣" },
+  { value: 15, id: "Chiayi", label: "嘉義市" },
+  { value: 16, id: "PingtungCounty", label: "屏東縣" },
+  { value: 17, id: "YilanCounty", label: "宜蘭縣" },
+  { value: 18, id: "HualienCounty", label: "花蓮縣" },
+  { value: 19, id: "TaitungCounty", label: "臺東縣" },
+  { value: 20, id: "KinmenCounty", label: "金門縣" },
+  { value: 21, id: "PenghuCounty", label: "澎湖縣" },
+  { value: 22, id: "LienchiangCounty", label: "連江縣" },
+];
+
+export default citys;
