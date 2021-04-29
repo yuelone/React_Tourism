@@ -51,7 +51,7 @@ const ScenicSpot = () => {
         path="/scenicSpot"
         component={() => (
           <>
-            <h1 className={`${styles.text}`}>全部景點列表</h1>
+            <h1 className={`${styles.ScenicSpot_text}`}>全部景點列表</h1>
             <ScenicSpotList scenicSpot={scenicspot} />
             <center>
               <input

@@ -10,10 +10,10 @@ const About = () => (
         <h2>資料來源</h2>
         <h3>交通部「公共運輸整合資訊流通服務平臺(PTX)」</h3>
         <h4>API資料來源&nbsp;&nbsp;&nbsp;(點選圖片)</h4>
+        <a href="https://ptx.transportdata.tw/MOTC?t=Tourism&v=2#">
+          <img src={logo} height="300px" width="450px" />
+        </a>
       </div>
-      <a href="https://ptx.transportdata.tw/MOTC?t=Tourism&v=2#">
-        <img src={logo} height="300" width="450" />
-      </a>
     </section>
   </main>
 );

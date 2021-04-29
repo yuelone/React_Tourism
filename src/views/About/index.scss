@@ -1,7 +1,11 @@
+$about_Font_Color: #ccccff;
+
 .container {
-  margin-left: 500px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .about_text {
-  color: #ccccff;
+  color: $about_Font_Color;
 }

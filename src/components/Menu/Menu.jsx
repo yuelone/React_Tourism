@@ -18,23 +18,23 @@ const Menu = () => {
   };
 
   return (
-    <header>
-      <nav className={`${styles.navbar}`}>
-        <ul className={`${styles.container}`}>
+    <header className={`${styles.RWD}`}>
+      <nav className="navbar" className={`${styles.navbar}`}>
+        <ul className="navbarItem" className={`${styles.container}`}>
           <li
-            className={`${styles.navbaritem} ${styles.navbaritem_hover}`}
+            className={`${styles.navbarItem}`}
             onClick={() => changeRouter("/about")}
           >
             關於我們
           </li>
           <li
-            className={`${styles.navbaritem} ${styles.navbaritem_hover}`}
+            className={`${styles.navbarItem} `}
             onClick={() => changeRouter("/scenicSpot")}
           >
             全部景點
           </li>
           <Select
-            className={`${styles.selectitem}`}
+            className={`${styles.selectItem}`}
             placeholder="縣市景點"
             value={selectedOption} // set selected value
             options={citys} // set list of the data

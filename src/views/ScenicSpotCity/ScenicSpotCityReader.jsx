@@ -56,21 +56,18 @@ const SenicSpotCityListReader = (props) => {
   }, [load]);
 
   return (
-    <main>
-      <h1 className={` ${styles.city_text}`}>{targetCity.label}</h1>
+    <main className={` ${styles.rwd_Container}`}>
       {senicspotCity.map((senicspotCity) => (
-        <section
-          className="senicspotCity"
-          className={` ${styles.course}`}
-          key={v4()}
-        >
-          <div className={`${styles.course_preview}`}>
-            <div className={` ${styles.course_h6}`}>景點</div>
-            <div className={`${styles.course_h2} `}> {senicspotCity.Name}</div>
+        <section className={` ${styles.ScenicSpot}`} key={v4()}>
+          <div className={`${styles.ScenicSpot_field}`}>
+            <div className={` ${styles.ScenicSpot_h6}`}>景點</div>
+            <div className={`${styles.ScenicSpot_h2} `}>
+              {senicspotCity.Name}
+            </div>
           </div>
-          <div className={` ${styles.course_info}`}>
-            <div className={` ${styles.course_h6}`}>簡單介紹</div>
-            <div className={`${styles.course_h2} `}>
+          <div className={` ${styles.ScenicSpot_info}`}>
+            <div className={` ${styles.ScenicSpot_h6}`}>簡單介紹</div>
+            <div className={`${styles.ScenicSpot_h2} `}>
               {senicspotCity.Description == null
                 ? "對不起這裡沒有簡單介紹"
                 : senicspotCity.Description}

@@ -1,10 +1,31 @@
+$body_Coler: #10375c;
+$navbar_Color: rgb(230, 230, 230);
+$narbarItem_Color_hover: rgb(115, 115, 115);
+$narbarItem_Font_Color_hover: white;
+
 body {
-  background-color: #10375c;
+  background-color: $body_Coler;
+}
+
+#RWD {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1500px;
+  @media screen and (max-widht: 1200px) {
+    #RWD {
+      width: 45%;
+    }
+  }
+  @media screen and (max-widht: 500px) {
+    #RWD {
+      width: 90%;
+    }
+  }
 }
 
 .navbar {
   list-style: none; /* 移除項目符號 */
-  background-color: rgb(230, 230, 230);
+  background-color: $navbar_Color;
   margin: 0;
   padding: 0;
   font-size: 1.2rem;
@@ -15,19 +36,18 @@ body {
   justify-content: space-evenly;
 }
 
-.navbaritem {
+.navbarItem {
   font-size: 1.2rem;
   display: block; /* 讓 <a> 填滿 <li> */
   padding: 10px;
+  &:hover {
+    /* 滑鼠移到時變成深底淺色 */
+    background-color: $narbarItem_Color_hover;
+    color: $narbarItem_Font_Color_hover;
+  }
 }
 
-/* 滑鼠移到 <a> 時變成深底淺色 */
-.navbaritem:hover {
-  background-color: rgb(115, 115, 115);
-  color: white;
-}
-
-.selectitem {
-  width: 10%;
+.selectItem {
+  width: 200px;
   padding: 5px;
 }

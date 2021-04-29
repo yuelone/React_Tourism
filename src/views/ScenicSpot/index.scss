@@ -1,62 +1,60 @@
-.text {
-  text-align: center;
-  color: #ccccff;
+$text_Color: #ccccff;
+$ScenicSpot_Color: #fff;
+$ScenicSpot_BoxShadow_Color: rgba(0, 0, 0, 0.2);
+$ScenicSpot_field_color: #2a265f;
+$ScenicSpot_field_font_color: #fff;
+$btn_color: #008cba;
+$btn_font_color: white;
+
+.rwd_Container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
-.course {
-  background-color: #fff;
+.ScenicSpot_text {
+  text-align: center;
+  color: $text_Color;
+}
+
+.ScenicSpot {
+  background-color: $ScenicSpot_Color;
   border-radius: 10px;
-  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 10px 10px $ScenicSpot_BoxShadow_Color;
   display: flex;
   max-width: 100%;
   margin: 20px;
   overflow: hidden;
-  width: 700px;
-  margin-left: 350px;
+  width: 750px;
 }
 
-.course_preview {
-  background-color: #2a265f;
-  color: #fff;
+.ScenicSpot_field {
+  background-color: $ScenicSpot_field_color;
+  color: $ScenicSpot_field_font_color;
   padding: 30px;
-  max-width: 250px;
 }
 
-.course_h6 {
+.ScenicSpot_h6 {
   opacity: 0.6;
   margin: 0;
   letter-spacing: 1px;
   text-transform: uppercase;
 }
 
-.course_h2 {
+.ScenicSpot_h2 {
   letter-spacing: 1px;
   margin: 10px 0;
 }
 
-.progress_container {
-  position: absolute;
-  top: 30px;
-  right: 30px;
-  text-align: right;
-  width: 150px;
-}
-
-.course_info {
-  padding: 30px;
+.ScenicSpot_info {
   position: relative;
+  padding: 30px;
   width: 100%;
 }
 
 .btn {
-  background-color: #008cba;
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
+  background-color: $btn_color;
+  color: $btn_font_color;
+  width: 150px;
+  height: 50px;
 }
