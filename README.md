@@ -5,6 +5,7 @@
 ### 實現功能:
 #### SPA網站模式
 #### 基本串接 API
+#### RWD 網頁模式
 #### Infinite Scrolling 應用
 ##### 透過 Intersection Observer API 完成 Infinite Scrolling
 #####  <a href="https://hackmd.io/@yue1101/H1QaHPEvd">Intersection Observer API 介紹</a>
